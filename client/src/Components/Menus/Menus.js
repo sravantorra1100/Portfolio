@@ -19,24 +19,20 @@ const Menus = ({ toggle }) => {
                                 About
                             </div>
                             <div className="nav-link">
-                                <FcPortraitMode />
-                                Work Experience
+                                <FcReading />
+                                Education
                             </div>
                             <div className="nav-link">
                                 <FcBiotech />
                                 Tech Stack
                             </div>
                             <div className="nav-link">
-                                <FcReading />
-                                Education
-                            </div>
-                            <div className="nav-link">
                                 <FcVideoProjector />
                                 Projects
                             </div>
                             <div className="nav-link">
-                                <FcVoicePresentation />
-                                Testimonial
+                                <FcPortraitMode />
+                                Work Experience
                             </div>
                             <div className="nav-link">
                                 <FcBusinessContact />
@@ -55,22 +51,19 @@ const Menus = ({ toggle }) => {
                                 <FcAbout title='About' />
                             </div>
                             <div className="nav-link">
-                                <FcPortraitMode title='Work Experience'/>
+                                <FcReading title='Education' />
                             </div>
                             <div className="nav-link">
-                                <FcBiotech  title='Tech Stack'/>
+                                <FcBiotech title='Tech Stack' />
                             </div>
                             <div className="nav-link">
-                                <FcReading  title='Education'/>
+                                <FcVideoProjector title='Projects' />
                             </div>
                             <div className="nav-link">
-                                <FcVideoProjector  title='Projects'/>
+                                <FcPortraitMode title='Work Experience' />
                             </div>
                             <div className="nav-link">
-                                <FcVoicePresentation  title='Testimonial' />
-                            </div>
-                            <div className="nav-link">
-                                <FcBusinessContact  title='Contact'/>
+                                <FcBusinessContact title='Contact' />
                             </div>
                         </div>
                     </div>
