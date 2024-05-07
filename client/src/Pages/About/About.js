@@ -3,7 +3,7 @@ import './About.css'
 const About = () => {
     return (
         <>
-            <div className="about">
+            <div className="about" id="about">
                 <div className="row">
                     <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
                         <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/a3/03/f7/a303f72a-6e63-3167-3462-a957486c4f3e/source/512x512bb.jpg" alt="error-profile-pic" />

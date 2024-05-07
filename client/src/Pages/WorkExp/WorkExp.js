@@ -8,7 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const WorkExp = () => {
     return (
         <>
-            <div className=" work">
+            <div className=" work" id="workexperience">
                 <div className="container work-exp">
                     <h2 className='col-12 mt-3 ml-1 text-center text-uppercase'>Work Experience</h2><hr />
                     <VerticalTimeline lineColor='#1e1e2c'>

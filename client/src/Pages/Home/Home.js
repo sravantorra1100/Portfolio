@@ -5,7 +5,7 @@ import Resume from '../../Assets/docs/resume.txt'
 const Home = () => {
   return (
     <>
-      <div className="container-fluid home-container">
+      <div className="container-fluid home-container" id="home">
         <div className="container home-content">
           <h2>Hi 👋 i'm a</h2>
           <h1>
