@@ -25,3 +25,12 @@ text-align: center;
     padding:20px;
 }
 
+/* Dark Mode*/
+#dark .about{
+box-sizing: none;
+background-color: rgba(0, 0, 0, 0.15);
+}
+#dark .about-context h1{
+    color:#b0a4a4;
+    border-bottom: 2px solid #b0a4a4;
+}

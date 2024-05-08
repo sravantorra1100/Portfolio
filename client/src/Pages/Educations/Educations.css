@@ -1,5 +1,5 @@
 .education {
-    padding:100px 0px;
+    padding: 100px 0px;
     margin: 40px 0px;
     margin-left: 230px;
     background-color: rgba(128, 128, 128, 0.107);
@@ -21,5 +21,10 @@
 }
 
 .education .vertical-timeline-element-subtitle {
-    color:#1e1e2c;
+    color: #1e1e2c;
+}
+
+/*Dark Mode*/
+#dark .education {
+    background-color: rgba(225, 225, 225, 0.095);
 }
