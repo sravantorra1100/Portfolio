@@ -69,14 +69,37 @@ textarea:focus {
     box-shadow: none;
     outline-width: 0px;
 }
-.button{
+
+.button {
     background-color: #1e1e2c;
-    color:white;
+    color: white;
     border-radius: 2px;
     margin-top: 15px;
-    padding:10px;
+    padding: 10px;
 }
-.button:hover{
+
+.button:hover {
     border-color: #000;
     color: white;
+}
+
+
+
+/* mobile  */
+@media(max-width:600px) {
+    .contact {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .contact .card2 {
+        margin: 0;
+    }
+
+    .contact .card2 h6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

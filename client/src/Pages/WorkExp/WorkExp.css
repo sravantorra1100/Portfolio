@@ -29,3 +29,16 @@ color: #1e1e2c78;
 #dark .work-exp h2{
 color: white;
 }
+
+
+/* mobile  */
+@media(max-width:600px){
+    .work {
+     margin:0;
+     padding:0;
+     margin-top: 50px;
+    }
+    .work hr {
+        width:280px;
+    }
+}

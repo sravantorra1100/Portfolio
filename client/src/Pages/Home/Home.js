@@ -22,13 +22,12 @@ const handleTheme=()=>{
         </div>
         <div className="container home-content">
           <Fade right>
-          <h2>Hi 👋 i'm a</h2>
+          <h2>Hi I'm Sravan Torra</h2>
           <h1>
             <Typewriter
               options={{
                 strings: ["FullStack Developer!",
-                  "Mern Stack Developer!",
-                  "React native Developer!"],               // remove   React native Developer
+                  "Mern Stack Developer!"],
                 autoStart: true,
                 loop: true,
               }} />
@@ -36,7 +35,8 @@ const handleTheme=()=>{
           </Fade>
           <Fade bottom>
           <div className="home-buttons">
-            <button className='btn btn-hire'>Hire Me</button>
+            <a className='btn btn-hire' href="https://api.whatsapp.com/send?phone=7498622598"
+            rel="noreferrer" target="_blank">Hire Me</a>
             <a className='btn btn-cv' href={Resume} download="your-name.pdf" >My Resume</a>
           </div>
           </Fade>
