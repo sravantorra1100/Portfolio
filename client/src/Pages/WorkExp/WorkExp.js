@@ -1,6 +1,6 @@
 import React from 'react'
 import './WorkExp.css'
-import {SiReact} from 'react-icons/si'
+import { SiReact } from 'react-icons/si'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -16,44 +16,18 @@ const WorkExp = () => {
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: 'white', color: '#1e1e2c' }}
                             contentArrowStyle={{ borderRight: '7px solid  white ' }}
-                            date="2023 - present"
-                            iconStyle={{ background: '#1e1e2c', color: '#fff' }}
+                            date="Sep - 2024"
+                            iconStyle={{ background: '#aa00ff', color: '#fff' }}
                             icon={<SiReact />}
                         >
-                            <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+                            <h3 className="vertical-timeline-element-title">Full Stack Developer(MERN) - Internship</h3>
                             <h4 className="vertical-timeline-element-subtitle">xyz, pvt ltd</h4>
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                1 month of Internship Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, commodi.
                             </p>
                         </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'white', color: '#1e1e2c' }}
-                            contentArrowStyle={{ borderRight: '7px solid  white ' }}
-                            date="2020 - 2022"
-                            iconStyle={{ background: '#1e1e2c', color: '#fff' }}
-                            icon={<SiReact />}
-                        >
-                            <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
-                            <h4 className="vertical-timeline-element-subtitle">xyz, pvt ltd</h4>
-                            <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                            </p>
-                        </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'white', color: '#1e1e2c' }}
-                            contentArrowStyle={{ borderRight: '7px solid  white ' }}
-                            date="2018 - 2020"
-                            iconStyle={{ background: '#1e1e2c', color: '#fff' }}
-                            icon={<SiReact />}
-                        >
-                            <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
-                            <h4 className="vertical-timeline-element-subtitle">xyz, pvt ltd</h4>
-                            <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                            </p>
-                        </VerticalTimelineElement>
+                        {/**/}
+                        {/**/}
                     </VerticalTimeline>
                 </div>
             </div>

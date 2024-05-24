@@ -1,17 +1,23 @@
 .project {
     margin: 40px 0px;
-    margin-left: 175px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    background-color: #eeccff;
+    border-radius: 5px;
 }
 
 .project hr {
-    color: #138781;
+    color: #aa00ff;
     width: 400px;
     margin: 10px auto;
 }
 
 .project h2 {
     font-weight: bold;
-    color: #138781;
+    color: #aa00ff;
 }
 
 #ads {
@@ -60,13 +66,17 @@
     transition: all 1s ease;
 }
 
+.smalltitle{
+    color:#aa00ff;
+    text-decoration: underline;
+}
 .ad-btn {
     text-transform: uppercase;
     width: 150px;
     height: 40px;
     display: block;
     text-align: center;
-    background-color: #138781;
+    background-color: #aa00ff;
     color: white;
     border-radius: 80px;
     font-size: 16px;
@@ -79,12 +89,25 @@
 
 .ad-btn:hover {
     background-color: white;
-    color: #138781;
+    color: #aa00ff;
     background: transparent;
-    border: 2px solid #138781;
+    border: 2px solid #aa00ff;
     transition:all 0.5s ease;
     box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
 }
+
+
+
+/* Dark Mode*/
+#dark .project{
+    box-sizing: none;
+    background-color: rgba(225, 225, 225, 0.095);
+    }
+
+
+
+
+
 
 
 /* mobile  */

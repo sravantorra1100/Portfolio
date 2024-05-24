@@ -3,6 +3,7 @@ import './MobileNav.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineMenuFold } from 'react-icons/ai'
 import { Link } from 'react-scroll';
+import { GrCertificate } from "react-icons/gr";
 import { FcHome, FcAbout, FcPortraitMode, FcBiotech, FcReading, FcVideoProjector, FcBusinessContact } from 'react-icons/fc';
 
 
@@ -44,6 +45,12 @@ setOpen(false);
                                     <Link to="education" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
                                         <FcReading />
                                         Education
+                                    </Link>
+                                </div>
+                                <div className="nav-link">
+                                    <Link to="certificatesLicence" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
+                                        <GrCertificate />
+                                        Certifications
                                     </Link>
                                 </div>
                                 <div className="nav-link">

@@ -15,22 +15,26 @@ const Educations = () => {
             contentStyle={{ background: 'White', color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2020 - 2023"
-            iconStyle={{ background: '#138781', color: '#fff' }}
+            iconStyle={{ background: '#aa00ff', color: '#fff' }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">Bsc</h3>
-            <h4 className="vertical-timeline-element-subtitle">BNN,Bhiwandi</h4>
+            <h3 className="vertical-timeline-element-title">B.Sc.Computer Science</h3>
+            <h4 className="vertical-timeline-element-subtitle">BNN,College-Bhiwandi</h4>
+            <h4 className="vertical-timeline-element-subtitle">[University of Mumbai]</h4>
+            <h5 className="vertical-timeline-element-subtitle1">Percentage/CGPA : 8.9 cgpa</h5>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'White', color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2020"
-            iconStyle={{ background: '#138781', color: '#fff' }}
+            date="2018 - 2020"
+            iconStyle={{ background: '#aa00ff', color: '#fff' }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">12th</h3>
-            <h4 className="vertical-timeline-element-subtitle">BNN,Bhiwandi</h4>
+            <h3 className="vertical-timeline-element-title">12th-HSC</h3>
+            <h4 className="vertical-timeline-element-subtitle">BNN,College-Bhiwandi</h4>
+            <h4 className="vertical-timeline-element-subtitle">[Maharashtra State Board]</h4>
+            <h5 className="vertical-timeline-element-subtitle1">Percentage/CGPA : 54.9%</h5>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

@@ -1,22 +1,25 @@
 
 .work{
 background-color: #1387812a;
-margin-left: 140px;
+margin-left: 200px;
+margin-top: 50px;
+background-color: #eeccff;
+border-radius: 5px;
 }
 .work-exp{
     padding: 60px 0px;
 }
 .work-exp h2{
     font-weight: bold;
-    color:#1e1e2c;
+    color:#aa00ff;
 }
 .work-exp hr{
-    color:#138781;
+    color:#aa00ff;
     width:400px;
     margin:10px auto;
 }
 .work-exp .vertical-timeline-element-title{
-color:#138781;
+color:#aa00ff;
 }
 .work-exp .vertical-timeline-element-subtitle{
 color: #1e1e2c78;
@@ -24,10 +27,12 @@ color: #1e1e2c78;
 
 /*Dark Mode*/
 #dark .work{
-    background-color: #643a6b;
+   /* background-color: #643a6b;*/
+    box-sizing: none;
+    background-color: rgba(225, 225, 225, 0.095);
 }
 #dark .work-exp h2{
-color: white;
+/*color: white;*/
 }
 
 

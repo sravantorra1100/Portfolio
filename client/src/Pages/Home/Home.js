@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import './Home.css';
 import { BsFillMoonStarsFill,BsFillSunFill } from 'react-icons/bs'
 import Fade from 'react-reveal/Fade';
-import Resume from '../../Assets/docs/resume.txt'
+import Resume from '../../Assets/docs/sravanresume.pdf'
 
 
 const Home = () => {
@@ -37,7 +37,7 @@ const handleTheme=()=>{
           <div className="home-buttons">
             <a className='btn btn-hire' href="https://api.whatsapp.com/send?phone=7498622598"
             rel="noreferrer" target="_blank">Hire Me</a>
-            <a className='btn btn-cv' href={Resume} download="your-name.pdf" >My Resume</a>
+            <a className='btn btn-cv' href={Resume} download="sravanresume.pdf" >My Resume</a>
           </div>
           </Fade>
         </div>

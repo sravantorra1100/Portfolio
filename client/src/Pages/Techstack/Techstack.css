@@ -1,17 +1,21 @@
 .techstack {
-    padding-left: 120px;
-    margin: 60px;
+    padding-left: 20px;  /* padding-left: 120px; margin: 60px;*/
+    margin: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #eeccff;
+    border-radius: 5px;
 }
 
 .techstack hr {
-    color: #138781;
+    color: #aa00ff;
     width: 400px;
     margin: 10px auto;
 }
 
 .techstack h2 {
     font-weight: bold;
-    color: #138781;
+    color: #aa00ff;
 }
 
 .techstack .card {
@@ -24,13 +28,32 @@
 }
 
 .techstack .card:hover {
-    background-color: #138781;
+    background-color: #aa00ff;
     color: white;
     transition: 1s;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+
+
+
+/* Dark Mode*/
+#dark .techstack{
+    box-sizing: none;
+    background-color: rgba(225, 225, 225, 0.095);
+    }
+#dark .techstack .card:hover {
+    background-color: #aa00ff;
+    color: white;
+    border:1px solid white;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 
 
 /* mobile  */

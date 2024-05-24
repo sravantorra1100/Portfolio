@@ -1,28 +1,35 @@
 .education {
     padding: 100px 0px;
     margin: 40px 0px;
-    margin-left: 230px;
-    background-color: rgba(128, 128, 128, 0.107);
+    margin-left: 200px;
+    background-color:#eeccff;
+    border-radius: 5px;
 }
 
 .education hr {
-    color: #138781;
+    color: #aa00ff;
     width: 400px;
     margin: 10px auto;
 }
 
 .education h2 {
     font-weight: bold;
-    color: #138781;
+    color: #aa00ff;
 }
 
 .education .vertical-timeline-element-title {
-    color: #138781;
+    color: #aa00ff;
 }
 
 .education .vertical-timeline-element-subtitle {
-    color: #1e1e2c;
+    color: #1e1e2c9a;
 }
+
+.education .vertical-timeline-element-subtitle1 {
+    color: rgba(39, 37, 37, 0.966);
+    margin-top:15px;
+}
+    
 
 /*Dark Mode*/
 #dark .education {

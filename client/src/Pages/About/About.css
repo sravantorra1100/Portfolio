@@ -3,16 +3,20 @@ margin :30px 0px;
 padding:20px;
 margin-left: 200px;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 1.95px 2.6px;
+background-color: #eeccff;
+border-radius: 5px;
 }
 .about-img img{
     border-radius: 10px;
-    height: 400px; width:100% ;
+    height: 450px; width:100% ;
 }
 .about-content{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+background-color: #dd99ff;
+border-radius: 10px;
 }
 .about-content h1{
 color:grey;
@@ -28,11 +32,14 @@ text-align: center;
 /* Dark Mode*/
 #dark .about{
 box-sizing: none;
-background-color: rgba(0, 0, 0, 0.15);
+background-color: rgba(225, 225, 225, 0.095);
 }
 #dark .about-context h1{
     color:#b0a4a4;
     border-bottom: 2px solid #b0a4a4;
+}
+#dark .about-content{
+    background-color: rgba(225, 225, 225, 0.095);
 }
 
 
